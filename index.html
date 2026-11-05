@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Ordena las Plantas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PANTALLA DE ADVERTENCIA PARA ROTAR DISPOSITIVO -->
+  <div id="rotate-screen" class="overlay">
+    <div class="rotate-message">
+      <div class="phone-icon">📱</div>
+      <p>Por favor, gira tu celular horizontalmente para jugar.</p>
+    </div>
+  </div>
+
+  <!-- CONTENEDOR PRINCIPAL DEL JUEGO -->
+  <main id="game-container">
+    <h1 id="instruction">¡Arrastrá y ordená las plantas igual que la abuela de Agus!</h1>
+    
+    <div id="plants-board">
+      <!-- Las macetas se generarán dinámicamente con JavaScript -->
+    </div>
+
+    <!-- PANTALLA DE VICTORIA -->
+    <div id="win-screen" class="overlay hidden">
+      <div class="win-modal">
+        <h2>¡Lo lograste! 🌿</h2>
+        <p>Las plantas quedaron exactamente en su lugar.</p>
+        <button id="reset-btn">Jugar de nuevo</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
