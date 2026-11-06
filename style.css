@@ -84,6 +84,8 @@ body, html {
   text-align: center;
   margin-top: 5px;
   font-family: 'FuenteTitulo', sans-serif;
+  font-weight: normal;
+  
 }
 
 /* Tablero de macetas a lo ancho */
@@ -140,7 +142,7 @@ body, html {
 }
 
 .win-modal {
-  background: #ffffff;
+  background: #ebd5bb;
   padding: 25px 35px;
   border-radius: 16px;
   text-align: center;
@@ -154,6 +156,7 @@ body, html {
   margin-bottom: 10px;
   font-family: 'FuenteTitulo', sans-serif;
   font-size: 2.1rem;
+  font-weight: normal;
 }
 
 .win-modal p {
@@ -173,6 +176,7 @@ body, html {
   cursor: pointer;
   transition: background-color 0.2s;
   font-family: 'FuenteBoton', sans-serif;
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.3);
 }
 
 #reset-btn:active {
